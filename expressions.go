@@ -1,5 +1,7 @@
 package expressions
 
+const VERSION = 1
+
 /*
 The type that is used for storing the scalar values that variables can take on, and that expressions evaluate to.
 */

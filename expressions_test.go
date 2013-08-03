@@ -12,6 +12,10 @@ func confirm(e ExpressionLike, m map[string]Float, wantValue Float, wantOK bool,
 	}
 }
 
+func TestVersion(t *testing.T) {
+	fmt.Println("Testing version",VERSION)
+}
+
 func TestConstant(t *testing.T) {
 	var m map[string]Float = nil
 	conExp := NewConstant(42)
